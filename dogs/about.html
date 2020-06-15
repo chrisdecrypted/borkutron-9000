@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>|🐕| Doggos | BorkuTron 9000</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>BorkuTron 9000</h1>
+            <a href="index.html"><button class="btn">Go Bork</button></a>
+        </header>
+
+        <article>
+            <p>This is a random dog image generator. It was developed using the following tools:</p>
+            <ul>
+                <li> <a href="#dog">🦴 Dog.ceo API</a></li>
+                <li> <a href="#html">🦴 HTML</a></li>
+                <li> <a href="#css">🦴 CSS and Grid</a></li>
+                <li> <a href="#js">🦴 Vanilla JavaScript</a></li>
+            </ul>
+            <h1>🦴 Overview</h1>
+            <p>
+                The inspiration for this app came from <a href="https://frontendmasters.com/teachers/brian-holt/"> Brian
+                    Holt's</a> introduction to web
+                development on Frontend Masters. He uses the <a href="https://dog.ceo/">dog.ceo</a> API to create a
+                basic JavaScript image generator. You can view the original project <a
+                    href="https://btholt.github.io/intro-to-web-dev-v2/ajax">here</a>
+            </p>
+            <h1 id="dog">🦴 Dog.ceo API</h1>
+            <p>
+                The script that I used calls the API URL, parses the .json data and copies the link for each randomized
+                image. Here is the API call URL that I used:</p>
+            <p><code>https://dog.ceo/api/breeds/image/random</code></p>
+            <p>This URL returns the following .json example data: </p>
+            <p><code>
+                    {<br>
+                    "message": "https://images.dog.ceo/breeds/spaniel-japanese/n02085782_1143.jpg",<br>
+                    "status": "success"<br>
+                    }
+                </code>
+                <p>
+                    You can read more about the API in their documentation <a href="https://dog.ceo/dog-api/">here</a>.
+                </p>
+
+            </p>
+            </p>
+            <h1 id="html">🦴 HTML</h1>
+            <p>
+                The original code was very basic, it included a header and a
+                button. This project is silly, but it gave me a goal to focus on. 
+            </p>
+            <p>
+                I wanted to keep the layout basic and functional, but improve usability. I thought it would be cool to be able to add as many pictures as you'd like
+            </p>
+
+            <h1 id="css">🦴 CSS / Grid</h1>
+            <p>
+               This was my first time using Grid for a layout. I chose it because I wanted to learn a new skill. I used a template from a tutorial and then tweaked it for my purposes.  
+            </p>
+            <p>
+                You can see an example of how the elements are separated in the screenshot below.
+                <img class="img" src="img/grid-css.png">
+            </p>
+            <p>
+                In addition to grid, I custom coded CSS to add a pop of color. I also added easy to read Sans-Serif fonts and some large buttons to add and remove dog images.
+            </p>
+
+            <h1 id="js">🦴 Vanilla JavaScript</h1>
+            <p>
+
+            </p>
+
+        </article>
+
+        <footer>
+            <a href="https://www.christopher-murray.com">christopher-murray.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>
